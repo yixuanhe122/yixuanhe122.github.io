@@ -131,7 +131,7 @@ function App() {
           </section>
 
           <section>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-4">Honors & aActivities</h2>
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-4">Honors & Activities</h2>
             {honors.map((award, index) => (
               <li key={index} className='rounded-lg hover:bg-gradient-to-r from-primary'>{award}</li>
             ))}
